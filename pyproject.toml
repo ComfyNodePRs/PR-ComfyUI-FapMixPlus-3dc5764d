@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-fapmixplus"
+description = "This is an audio processing script that applies soft limiting, optional loudness normalization, and optional slicing for transcription. It can also produce stereo-mixed outputs with optional audio appended to the end. The script organizes processed files into structured folders with sanitized filenames and retains original timestamps for continuity."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["pydub", "yt-dlp"]
+
+[project.urls]
+Repository = "https://github.com/akspa0/ComfyUI-FapMixPlus"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-FapMixPlus"
+Icon = ""
